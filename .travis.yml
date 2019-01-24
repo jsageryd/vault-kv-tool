@@ -1,0 +1,11 @@
+language: go
+
+go:
+  - "1.11.4"
+
+install:
+  - go get golang.org/x/lint/golint
+
+script:
+  - golint -set_exit_status
+  - go test ./...
