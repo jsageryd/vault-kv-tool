@@ -9,7 +9,7 @@ This is a tool for importing/exporting KV (version 1) trees to/from
 
 ## Installation
 ```
-go get -u github.com/jsageryd/vault-kv-tool
+go install github.com/jsageryd/vault-kv-tool@latest
 ```
 
 ## Usage example
