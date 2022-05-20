@@ -1,27 +1,29 @@
 # github.com/fatih/color v1.9.0
-## explicit
+## explicit; go 1.13
 # github.com/go-test/deep v1.0.7
-## explicit
+## explicit; go 1.13
 # github.com/golang/snappy v0.0.3
 ## explicit
 github.com/golang/snappy
 # github.com/google/go-cmp v0.5.2
-## explicit
+## explicit; go 1.8
 # github.com/hashicorp/errwrap v1.1.0
 ## explicit
 github.com/hashicorp/errwrap
 # github.com/hashicorp/go-cleanhttp v0.5.2
-## explicit
+## explicit; go 1.13
 github.com/hashicorp/go-cleanhttp
 # github.com/hashicorp/go-multierror v1.1.1
-## explicit
+## explicit; go 1.13
 github.com/hashicorp/go-multierror
 # github.com/hashicorp/go-retryablehttp v0.6.8
-## explicit
+## explicit; go 1.13
 github.com/hashicorp/go-retryablehttp
 # github.com/hashicorp/go-rootcerts v1.0.2
+## explicit; go 1.12
 github.com/hashicorp/go-rootcerts
 # github.com/hashicorp/go-sockaddr v1.0.2
+## explicit
 github.com/hashicorp/go-sockaddr
 # github.com/hashicorp/hcl v1.0.1-vault
 ## explicit
@@ -35,10 +37,10 @@ github.com/hashicorp/hcl/json/parser
 github.com/hashicorp/hcl/json/scanner
 github.com/hashicorp/hcl/json/token
 # github.com/hashicorp/vault/api v1.0.5-0.20201001211907-38d91b749c77
-## explicit
+## explicit; go 1.13
 github.com/hashicorp/vault/api
 # github.com/hashicorp/vault/sdk v0.1.14-0.20210223204656-1d4a1ed9ad84
-## explicit
+## explicit; go 1.13
 github.com/hashicorp/vault/sdk/helper/compressutil
 github.com/hashicorp/vault/sdk/helper/consts
 github.com/hashicorp/vault/sdk/helper/hclutil
@@ -46,33 +48,35 @@ github.com/hashicorp/vault/sdk/helper/jsonutil
 github.com/hashicorp/vault/sdk/helper/parseutil
 github.com/hashicorp/vault/sdk/helper/strutil
 # github.com/kr/pretty v0.2.1
-## explicit
+## explicit; go 1.12
 # github.com/mitchellh/go-homedir v1.1.0
+## explicit
 github.com/mitchellh/go-homedir
 # github.com/mitchellh/mapstructure v1.4.1
-## explicit
+## explicit; go 1.14
 github.com/mitchellh/mapstructure
 # github.com/pierrec/lz4 v2.6.0+incompatible
 ## explicit
 github.com/pierrec/lz4
 github.com/pierrec/lz4/internal/xxh32
 # github.com/ryanuber/go-glob v1.0.0
+## explicit
 github.com/ryanuber/go-glob
 # github.com/stretchr/testify v1.6.1
-## explicit
+## explicit; go 1.13
 # golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
-## explicit
+## explicit; go 1.11
 golang.org/x/crypto/ed25519
 golang.org/x/crypto/ed25519/internal/edwards25519
 golang.org/x/crypto/pbkdf2
 # golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
-## explicit
+## explicit; go 1.11
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2
 golang.org/x/net/http2/hpack
 golang.org/x/net/idna
 # golang.org/x/text v0.3.5
-## explicit
+## explicit; go 1.11
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
@@ -81,6 +85,7 @@ golang.org/x/text/unicode/norm
 ## explicit
 golang.org/x/time/rate
 # gopkg.in/square/go-jose.v2 v2.5.1
+## explicit
 gopkg.in/square/go-jose.v2
 gopkg.in/square/go-jose.v2/cipher
 gopkg.in/square/go-jose.v2/json
