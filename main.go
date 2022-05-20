@@ -96,6 +96,10 @@ func readData(root string, logical *vaultapi.Logical, data map[string]interface{
 			if err != nil {
 				return nil, err
 			}
+			if sec == nil {
+				log.Printf("Skipping nil data for path %s", absPath)
+				continue
+			}
 			data[key] = sec.Data
 		}
 	}
