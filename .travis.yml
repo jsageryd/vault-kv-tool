@@ -1,7 +1,0 @@
-language: go
-
-go:
-  - "1.18.2"
-
-script:
-  - go test ./...

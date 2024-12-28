@@ -1,0 +1,21 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Run tests
+    strategy:
+      matrix:
+        go: ["1.18"]
+    runs-on: ubuntu-latest
+    container: golang:${{ matrix.go }}
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Run tests
+        run: go test ./...

@@ -1,6 +1,6 @@
 # vault-kv-tool
 
-[![Build Status](https://travis-ci.com/jsageryd/vault-kv-tool.svg?branch=master)](https://travis-ci.com/jsageryd/vault-kv-tool)
+[![Build Status](https://github.com/jsageryd/vault-kv-tool/workflows/ci/badge.svg)](https://github.com/jsageryd/vault-kv-tool/actions?query=workflow%3Aci)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jsageryd/vault-kv-tool)](https://goreportcard.com/report/github.com/jsageryd/vault-kv-tool)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/jsageryd/vault-kv-tool#license)
 
