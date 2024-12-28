@@ -1,6 +1,6 @@
 module github.com/jsageryd/vault-kv-tool
 
-go 1.18
+go 1.23.4
 
 require github.com/hashicorp/vault/api v1.0.5-0.20201001211907-38d91b749c77
 

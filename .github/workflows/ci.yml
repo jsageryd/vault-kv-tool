@@ -10,7 +10,7 @@ jobs:
     name: Run tests
     strategy:
       matrix:
-        go: ["1.18"]
+        go: ["1.23.4"]
     runs-on: ubuntu-latest
     container: golang:${{ matrix.go }}
     steps:
